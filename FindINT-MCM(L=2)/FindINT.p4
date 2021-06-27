@@ -16,7 +16,7 @@ register<bit<32>>(size = 1, initial_value = 0) loss_counter;//32位宽 100行的
 *********************** H E A D E R S  ***********************************
 *************************************************************************/
 
-typedef bit<9>  egressSpec_t;
+typedef bit<9>  egressSpec_t	//output_speed
 typedef bit<48> macAddr_t;
 typedef bit<32> ip4Addr_t;
 typedef bit<32> switchID_t;
